@@ -55,7 +55,7 @@ Invalid settings, snowboy provides prebuilt binaries for:
         self.copy("libsnowboy-detect.a", dst="lib", src=lib_path, keep_path=False)
 
     def package_info(self):
-        self.cpp_info.libs = ["snowboy-detect"]
+        self.cpp_info.libs = ["snowboy-detect", "cblas"]
 
     def package_id(self):
         if self.settings.os == "iOS" or self.settings.os == "Macos" or \
