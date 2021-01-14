@@ -1,3 +1,9 @@
+## Package Deprecation Notice
+
+This project will no longer be maintained or supported.
+
+If you want to request a new version for this project, open an issue for [Conan Center Index](https://github.com/conan-io/conan-center-index)
+
 [![Download](https://api.bintray.com/packages/conan-community/conan/snowboy%3Aconan/images/download.svg) ](https://bintray.com/conan-community/conan/snowboy%3Aconan/_latestVersion)
 [![Build Status Travis](https://travis-ci.org/conan-community/conan-snowboy.svg)](https://travis-ci.org/conan-community/conan-snowboy)
 

@@ -11,6 +11,7 @@ class SnowboyConan(ConanFile):
     website = "https://snowboy.kitt.ai"
     settings = "os", "arch"
     no_copy_sources = True
+    deprecated = True
 
     def configure(self):
         if False and not self._get_src_to_package():
@@ -61,7 +62,3 @@ Invalid settings, snowboy provides prebuilt binaries for:
         if self.settings.os == "iOS" or self.settings.os == "Macos" or \
                 (self.settings.os == "Linux" and "arm" in self.settings.arch):
             del self.info.settings.arch
-
-
-
-
